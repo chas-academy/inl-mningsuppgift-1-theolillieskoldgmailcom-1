@@ -26,18 +26,24 @@ const contactBook = {
 };
   
   // Ange en grupp
-  let groupToShow;
+  let groupToShow = "arbete"
   
-
+  
 
 
 function showContacts(contactBook, groupToShow) { // Rör ej denna kod
 
+    for(c of contactBook.contacts){
 
+      if(c.group === groupToShow){
+        
+        return `Name: ${c.name}, Phone: ${c.phone}`;  // här ska sträng med namn och tekefonnummer visas i form av string interpolation
+      }
+    }
 
     // Loopar igenom alla kontakter och jämför grupp
    
-    return  // här ska sträng med namn och tekefonnummer visas i form av string interpolation
+  
 
 
 }
