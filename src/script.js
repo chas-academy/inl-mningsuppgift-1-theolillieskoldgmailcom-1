@@ -37,7 +37,7 @@ function showContacts(contactBook, groupToShow) { // Rör ej denna kod
 
       if(c.group === groupToShow){
         
-        return `Name: ${c.name}, Phone: ${c.phone}`;  // här ska sträng med namn och tekefonnummer visas i form av string interpolation
+        return `Namn: ${c.name}, Telefon: ${c.phone}`;  // här ska sträng med namn och tekefonnummer visas i form av string interpolation
       }
     }
 
